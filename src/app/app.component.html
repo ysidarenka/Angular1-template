@@ -1,3 +1,10 @@
 <h1>Test : {{ $ctrl.planet }} !</h1>
 
-<input ng-model="$ctrl.inputValue">
+<input ng-model="$ctrl.inputValue"/>
+
+<span>Length</span> 
+<span ng-if="$ctrl.contacts.length >0">
+    {{$ctrl.contacts.length | number}}
+</span>
+
+    
