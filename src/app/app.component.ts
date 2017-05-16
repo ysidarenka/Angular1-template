@@ -7,7 +7,9 @@ import { Component, OnInit, Inject } from 'ng-metadata/core';
 })
 export class AppComponent implements OnInit {
 
-  planet = 'New Application';
+  public planet = 'New Application by Yury';
+  public inputValue = "try something";
+  
   constructor( @Inject( '$log' ) private _$log: ng.ILogService ) {}
 
   ngOnInit() {
