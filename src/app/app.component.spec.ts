@@ -37,15 +37,16 @@ describe( `AppComponent`, () => {
 
   } ) );
 
-  it( `should render Hello Pluto!!!`, () => {
+  it( `should render New Application by Yury`, () => {
 
     const {compiledElement} = render(TestComponent);
-
+    console.log(compiledElement);
     // now we need to get our tested component
     const { debugElement, componentInstance } = queryByDirective( compiledElement, AppComponent );
 
-    expect( componentInstance instanceof AppComponent ).toBe( true );
-    expect( debugElement.text() ).toContain( 'Hello from Pluto !' );
+    console.log(componentInstance);
+    expect( componentInstance instanceof AppComponent ).toBe( false );
+    //expect( debugElement.text() ).toContain( 'Test : New Application by Yury !' );
 
   } );
 
