@@ -3,7 +3,7 @@
 [![Dependency Status](https://david-dm.org/ngParty/Angular1-scaffold.svg)](https://david-dm.org/ngParty/Angular1-scaffold)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/ngParty/Angular1-scaffold/master/LICENSE)
 
-#Yury Sidarenka template
+# Yury Sidarenka template
 
 # Angular 1 TypeScript Scaffold [![Join Slack](https://img.shields.io/badge/slack-join-brightgreen.svg)](https://ngparty.herokuapp.com)
 
